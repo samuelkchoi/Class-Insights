@@ -1,0 +1,35 @@
+.Top-Bar
+{
+    text-align: left;
+    width: 100%;
+    height: 140px;
+    background: url(http://www.solidbackgrounds.com/images/2880x1800/2880x1800-yankees-blue-solid-color-background.jpg);
+}
+body
+{
+    background-image: url(../loginpage.jpg);
+    background-size: cover;
+}
+body1
+{
+    background-image: url(../lbw2/jpg);
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    padding: 50px;
+    color: White;
+    font-family: "Monterserrat", Arial;
+}
+h2
+{
+    color: wHITE;
+    text-align: center;
+    font-family: "Monterserrat", Arial;
+    font-size: 20px;
+}
+h3
+{
+    color: white;
+}

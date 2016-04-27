@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+.Top-Bar
+{
+    text-align: left;
+    width: 100%;
+    height: 140px;
+    background: url(http://www.solidbackgrounds.com/images/2880x1800/2880x1800-yankees-blue-solid-color-background.jpg);
+}
+body
+{
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+    padding: 0;
+	margin: 0;
+}
+h1
+{
+    text-align: center;
+    padding: 50px;
+    color: White;
+    font-family: "Comfortaa";
+}
+h2
+{
+    color: wHITE;
+    text-align: center;
+    font-family: "Comfortaa";
+    font-size: 20px;
+}
+h3
+{
+    color: white;
+}
+h4
+{
+    text-align: center;
+    padding: 50px;
+    color: Black;
+    font-family: "Comfortaa"; 
+    font-size: 26pt;
+}
+
+
+.navbar li:hover a {
+    background-color: gray;
+}
+
+#home {
+	background-color: #DF6F53;
+}
+
+.navbar li ul 	
+{
+	display: none;  /* Hides the drop-down menu */
+	height: auto;									
+	margin: 0; /* Aligns drop-down box underneath the menu item */
+	padding: 0; /* Aligns drop-down box underneath the menu item */			
+}	
+ul
+{
+    text-align: center;
+    font-family: "Comfortaa";
+    font-size: 14pt;
+    padding: 0;
+    list-style: none;
+    background: #000000;
+}
+ul li
+{
+    display: inline-block;
+    position: relative;
+    line-height: 35px;
+    text-align: left;
+}
+ul li a
+{
+    display: block;
+    padding: 8px 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul li a:hover
+{
+    color: #fff;
+    background: #000000;
+}
+ul li ul.dropdown
+{
+    min-width: 170px; /* Set width of the dropdown */
+    background: #777777;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown
+{
+    display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li
+{
+    display: block;
+}
+.Text-Box-1
+{
+    font-family: "Comfortaa";
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+body {padding: 0; margin: 0; background-color: #333;}
+
+.container {}
+
+/* FADE IN */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+.fade-in 
+{
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one
+{
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+

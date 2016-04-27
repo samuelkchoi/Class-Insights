@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+body
+{
+    background-image: url(http://1.bp.blogspot.com/-K-0l5N9uCG0/VAE-Q8J43RI/AAAAAAAAAbc/ci--27l8Iko/s1600/my-tech-wallpaper3.jpg);
+    background-size: cover;
+    padding: 0;
+	margin: 0;
+}
+h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+input[type=submit] 
+{
+    width: 150px;  height: 50px;
+    font-size: 15pt;
+    border-radius: 10px;
+}
+.navbar	
+{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	left: 27%;
+	width: 100%;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	/*border-right: 1px solid #54879d; */
+}
+
+.navbar li 
+{
+	height: auto;
+	width: 250px;  /* Each menu item is 150px wide */
+	float: left;  /* This lines up the menu items horizontally */
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	font-family: "Comfortaa"; 
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+.navbar a	
+{							
+	padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+	/*border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+	/*border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+	text-decoration: none;  /* Removes the default hyperlink styling. */
+	color: white; /* Text color is white */
+	display: block;
+}
+
+.navbar li:hover a {
+    background-color: gray;
+}
+
+#home {
+	background-color: #DF6F53;
+}
+
+.navbar li ul 	
+{
+	display: none;  /* Hides the drop-down menu */
+	height: auto;									
+	margin: 0; /* Aligns drop-down box underneath the menu item */
+	padding: 0; /* Aligns drop-down box underneath the menu item */			
+}	
+ul
+{
+    text-align: center;
+    font-family: "Comfortaa";
+    font-size: 14pt;
+    padding: 0;
+    list-style: none;
+    background: #000000;
+}
+ul li
+{
+    display: inline-block;
+    position: relative;
+    line-height: 35px;
+    text-align: left;
+}
+ul li a
+{
+    display: block;
+    padding: 8px 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul li a:hover
+{
+    color: #fff;
+    background: #000000;
+}
+ul li ul.dropdown
+{
+    min-width: 170px; /* Set width of the dropdown */
+    background: #777777;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown
+{
+    display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li
+{
+    display: block;
+}

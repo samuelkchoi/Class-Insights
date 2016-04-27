@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="logo_icon.ico" />
+        <title>Class Insights</title>
+    </head>
+<body>
+    <ul>
+        <li><a href="indexc.html">Home</a></li>
+        <li>
+        	<a href="#">UserName &#9662;</a>
+        	<ul class="dropdown">
+                <li><a href="index.html">LOG OUT</a></li><!--NEEDS TO BE FIXED TO ACTUALLY LOG THE USER OUT-->
+            </ul>
+        </li> 
+        <li>
+            <a href="#">Departments &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="Departments/CS.html">COMPUTER SCIENCE</a></li>
+                <li><a href="Departments/EE.html">ELECTRICAL ENGINEERING</a></li>
+            </ul>
+        </li>
+        <li><a href="Home/about.html">About</a></li>
+    </ul>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="fade-in one">
+            <a href="Logo/logo.png" style="position: absolute; clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0"  src="Logo/logo.png" width="500"/></a><br/><br/>
+            <div style="background-color: #FFFFFF"; margin-left: 20px; margin-right: 20px; padding-bottom: 8px; padding-left: 8px; padding-right: 8px; padding-top: 8px;">
+            <b><h4>Welcome to <font color="#0053ba">Class</font> <font color="#00ff30">Insights!</font></h4></div></b><br/>
+        </div>
+    </div>
+
+<!--code for reading current logged in user
+	$servername = "localhost";
+	$user = "root";
+	$pass = "39632hd";
+	$dbname = "Database One";
+	
+	$pdo = new PDO("mysql:host=$servername;dbname=$dbname", $user, $pass);
+    $sth = $pdo->prepare("SELECT uname, FROM Cloud WHERE 1");
+    
+    $sth->bindParam(':uname', $uname);
+	$sth->execute();
+	
+	uname is now in $uname-->
+
+
+</body>
+</html>
+
