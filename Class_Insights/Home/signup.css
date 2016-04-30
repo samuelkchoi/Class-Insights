@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
 .Top-Bar
 {
     text-align: left;
@@ -7,7 +8,7 @@
 }
 body
 {
-    background-image: url(../registerpage.jpg);
+    background-image: url(../Pics/registerpage.jpg);
     background-size: cover;
 }
 h1
@@ -28,8 +29,19 @@ h3
 {
     color: white;
 }
-.boxed
+h4
 {
-  border: 2px black;
+    color: white;
 }
+.resizedTextbox 
+{
+    width: 225px; height: 50px;
+    border-radius: 3px;
+}
+.resizeButton
+{
+    width: 100px;
+    height: 70px;
+    font-family: "Comfortaa";
+    font-size: 20pt;
 }
